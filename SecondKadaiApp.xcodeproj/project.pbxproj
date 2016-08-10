@@ -14,6 +14,7 @@
 		CFB023781D4F26D7005AC143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB023761D4F26D7005AC143 /* LaunchScreen.storyboard */; };
 		CFB023831D4F26D7005AC143 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB023821D4F26D7005AC143 /* SecondKadaiAppTests.swift */; };
 		CFB0238E1D4F26D7005AC143 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0238D1D4F26D7005AC143 /* SecondKadaiAppUITests.swift */; };
+		CFB0239C1D4F29D5005AC143 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB0239B1D4F29D5005AC143 /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CFB023891D4F26D7005AC143 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB0238D1D4F26D7005AC143 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		CFB0238F1D4F26D7005AC143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB0239B1D4F29D5005AC143 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				CFB0236D1D4F26D7005AC143 /* AppDelegate.swift */,
 				CFB0236F1D4F26D7005AC143 /* ViewController.swift */,
+				CFB0239B1D4F29D5005AC143 /* NameViewController.swift */,
 				CFB023711D4F26D7005AC143 /* Main.storyboard */,
 				CFB023741D4F26D7005AC143 /* Assets.xcassets */,
 				CFB023761D4F26D7005AC143 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				CFB023701D4F26D7005AC143 /* ViewController.swift in Sources */,
 				CFB0236E1D4F26D7005AC143 /* AppDelegate.swift in Sources */,
+				CFB0239C1D4F29D5005AC143 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
